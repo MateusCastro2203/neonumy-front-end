@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col,Card } from "react-bootstrap";
 import { Info } from "../info/info";
+import { WeatherCard } from "../Weather/weather";
 export const Cards = () => {
 
     return (
@@ -9,7 +10,7 @@ export const Cards = () => {
                 <Col md={{ span: 6, offset: 3 }}>
                     <Card style={{width: '40rem'}}>
                         <Card.Body variant="top">
-
+                        <WeatherCard/>
                         </Card.Body>
                         <Card.Body >
                         <Info />

@@ -4,7 +4,7 @@ import {FcLike} from 'react-icons/fc'
 export const Like = () =>{
 
     const [like, setLike] = useState(2);
-
+    
 
     return(
         <>
